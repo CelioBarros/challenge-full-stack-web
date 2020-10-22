@@ -1,0 +1,46 @@
+{
+  "navigation-item": {
+    "home": "Academic Module",
+    "user": "Students",
+    "change-theme": "Change Theme",
+    "change-language": "Change language"
+  },
+  "components": {
+    "user": {
+      "data-table": {
+        "tooltip": {
+          "edit": "Edit",
+          "delete": "Remove"
+        },
+        "header": {
+          "name": "Name",
+          "cpf": "CPF",
+          "ra": "Academic Record",
+          "actions": "Actions"
+        },
+        "title": "Students appointment",
+        "search": "Search by name",
+        "add-button": "Register Student",
+        "delete-student": "Are you shure you want to remove student {ra}?",
+        "saved": "Sucefully save"
+      },
+      "register-dialog": {
+        "title": "Register Student",
+        "fields": {
+          "name": "Name",
+          "cpf": "CPF",
+          "ra": "Academic Record",
+          "email": "Email"
+        },
+        "buttons": {
+          "cancel": "Cancel",
+          "save": "Save"
+        },
+        "rules": {
+          "required": "Required field",
+          "integer-validation": "Numeric field"
+        }
+      }
+    }
+  }
+}

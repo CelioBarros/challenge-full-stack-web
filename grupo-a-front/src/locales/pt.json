@@ -1,0 +1,46 @@
+{
+  "navigation-item": {
+    "home": "Módulo academico",
+    "user": "Alunos",
+    "change-theme": "Alterar tema",
+    "change-language": "Alterar lingua"
+  },
+  "components": {
+    "user": {
+      "data-table": {
+        "tooltip": {
+          "edit": "Editar",
+          "delete": "Remover"
+        },
+        "header": {
+          "name": "Nome",
+          "cpf": "CPF",
+          "ra": "Registro Acadêmico",
+          "actions": "Ações"
+        },
+        "title": "Consulta de alunos",
+        "search": "Buscar por nome",
+        "add-button": "Cadastrar Aluno",
+        "delete-student": "Tem certeza que deseja remover o aluno {ra}?",
+        "saved": "Salvo com sucesso"
+      },
+      "register-dialog": {
+        "title": "Cadastro de Aluno",
+        "fields": {
+          "name": "Nome",
+          "cpf": "CPF",
+          "ra": "Registro Acadêmico",
+          "email": "Email"
+        },
+        "buttons": {
+          "cancel": "Cancelar",
+          "save": "Salvar"
+        },
+        "rules": {
+          "required": "Campo obrigatório",
+          "integer-validation": "Campo numérico"
+        }
+      }
+    }
+  }
+}
